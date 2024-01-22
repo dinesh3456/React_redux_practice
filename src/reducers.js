@@ -7,7 +7,7 @@ const rootReducer = (state = initialMode, action)=>{
         case 'ENABLE':
             return {mode : 'enable'};
         case 'DISABLE':
-            return {mode: 'diable'};
+            return {mode: 'disable'};
         default:
             return  state;
         
