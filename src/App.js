@@ -3,8 +3,8 @@ import {  connect } from "react-redux";
 
 const App = (props)=>{
     return(
-        <div>
-            <h1>"Welcome to react application for redux</h1>
+        <div style={{ textAlign: "center" }}>
+            <h1> Welcome to react application</h1>
             <p><h2>Current mode:{props.mode}</h2></p>
             <button onClick={props.enable}>Enable</button>
             <button onClick={props.disable}>Disable</button>
